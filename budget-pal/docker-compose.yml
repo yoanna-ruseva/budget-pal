@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: budget-pal-db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: BUDGET-PAL
+      POSTGRES_PASSWORD: FIN-TRACKER2025
+      POSTGRES_DB: budget_pal_api
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+volumes:
+  postgres_data:
