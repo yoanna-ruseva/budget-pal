@@ -1,0 +1,9 @@
+{
+  "name": "budget-pal-client",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/budget-pal-client/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project budget-pal-client --web",
+  "targets": {}
+}
